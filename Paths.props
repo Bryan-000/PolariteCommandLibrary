@@ -1,0 +1,14 @@
+<Project>
+	<PropertyGroup>
+		<!-- Set this to where ever your ULTRAKILL folder is. -->
+		<ULTRAKILLPath>C:\Program Files (x86)\Steam\steamapps\common\ULTRAKILL</ULTRAKILLPath>
+		<ManagedPath>$(ULTRAKILLPath)\ULTRAKILL_Data\Managed</ManagedPath>
+		<PluginPath>$(ULTRAKILLPath)\BepInEx\plugins</PluginPath>
+		
+		<!-- Set this to where your Polarite dll is. -->
+		<PolaritePath>$(PluginPath)\POLARITE\Polarite.dll</PolaritePath>
+		
+		<!-- This is the path where the ban evader DLL is copied to. -->
+		<CopyPath>$(PluginPath)\POLARITE\</CopyPath>
+	</PropertyGroup>
+</Project>
